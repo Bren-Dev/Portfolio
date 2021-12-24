@@ -4,7 +4,8 @@ Oii, este é o meu primeiro portfólio. Provavelmente está com muitos erros de 
 
 # Prévia
 
-![Uploading 2021-12-24-00-33-20.gif…]()
+![2021-12-24-00-33-20](https://user-images.githubusercontent.com/92698949/147313100-484d0886-2031-4de6-9ce8-46ba6ad608e6.gif)
+
 
 # Imagens
 
