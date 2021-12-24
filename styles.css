@@ -1,0 +1,346 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Playfair+Display:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@700&family=Montserrat:wght@300;400&family=Playfair+Display:wght@700&display=swap");
+
+@media (max-width: 1023px) {
+  .ContentHeader {
+    flex-direction: column;
+  }
+  header a {
+    background-color: #c9c9c9;
+    border-radius: 4px;
+    padding: 10px 20px;
+  }
+  .Introduction h1 {
+    font-size: 3rem;
+  }
+}
+
+body,
+html {
+  margin: 0;
+}
+h1,
+.logo,
+.div1Experience p {
+  font-family: "Playfair Display";
+}
+
+a {
+  text-decoration: none;
+  color: #141414;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.ContentHeader {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  width: 80%;
+}
+.logo {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  color: #141414;
+}
+
+.Introduction h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 72px;
+  position: relative;
+}
+
+.Introduction h1::before {
+  content: "";
+  display: block;
+  width: 130px;
+  height: 100px;
+  background: url("img/deco.svg") no-repeat center;
+  position: absolute;
+  top: -15px;
+  left: -40px;
+  z-index: -1;
+}
+
+.ContentIntroduction img {
+  width: 200px;
+  height: 300px;
+}
+
+.Introduction {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+}
+.ContentIndroduction {
+  display: flex;
+  justify-content: space-between;
+  width: 1022px;
+}
+
+.div2Introduction p {
+  color: #525252;
+  font-weight: normal;
+  font-size: 24px;
+}
+
+nav ul {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  padding-left: 0;
+}
+
+nav ul li {
+  font-weight: normal;
+  font-size: 18px;
+  list-style-type: none;
+  font-family: "Fira Sans";
+  margin-right: 40px;
+}
+
+.Experience {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.ContentExperience {
+  display: flex;
+  justify-content: space-between;
+  width: 1022px;
+  align-items: baseline;
+}
+
+.ExperienceVery {
+  background: #f5f5f5;
+  border: 1px solid #f0f0f0;
+}
+
+.ExperienceList ul{
+  display: flex;
+  align-items: center;
+
+}
+
+.ExperienceList ul li {
+  list-style-type: none;
+  background-color: #ffffff;
+  border-radius: 5px;
+  color: #141414;
+  font-size: 14px;
+  height: 30px;
+  margin-right: 2rem;
+  width: 100%;
+}
+
+.div1Experience p {
+  font-size: 144px;
+  color: #e0e0e0;
+}
+
+.div2Experience {
+  color: #525252;
+  font-size: 20px;
+  width: 500px;
+  font-weight: normal;
+  margin-bottom: 5rem;
+}
+
+
+
+
+.company {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px 20px;
+  padding: 20px;
+  background: #f5f5f5;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  position: relative;
+}
+
+.company::before {
+  content: "";
+  display: block;
+  width: 4px;
+  height: 20px;
+  background: linear-gradient(rgba(182, 41, 248, 1), rgba(10, 94, 221, 1));
+  position: absolute;
+  top: 20px;
+  left: -4px;
+}
+
+.company-year {
+  position: absolute;
+  top: 22px;
+  left: -100px;
+  text-align: right;
+  width: 80px;
+  color: #525252;
+  font-size: 0.875rem;
+}
+
+.company-title {
+  font-size: 1.125rem;
+  line-height: 1.1;
+  font-weight: bold;
+}
+
+.company-text {
+  font-size: 0.875rem;
+  line-height: 1.4;
+  color: #525252;
+}
+
+.company-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-content: start;
+}
+
+.company-skills li {
+  font-size: 0.875rem;
+  line-height: 1.4;
+  border-radius: 4px;
+  background: #ffffff;
+  padding: 5px 10px;
+  list-style-type: none;
+}
+
+
+
+.Formation {
+  background-color: #141414;
+  height: 958px;
+}
+
+.Form h1 {
+  color: #c5eaf7;
+  font-size: 144px;
+  font-family: Fira Sans;
+  font-weight: bold;
+  margin: 0;
+}
+
+.Formation p {
+  font-weight: 700;
+  color: #a3a3a3;
+  font-family: Fira Sans;
+  font-weight: normal;
+}
+
+.ExperienceFormation {
+  width: 30%;
+}
+
+.ContentFormation {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Formation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Fira Sans";
+}
+.IconIdiomas,
+.IconCourses {
+  display: flex;
+}
+.Languages img,
+.Courses img {
+  margin-right: 1.5rem;
+}
+
+.Languages h4,
+.Courses h4 {
+  color: #ffffff;
+  margin-left: 3rem;
+}
+
+.Languages span {
+  color: #8f8f8f;
+}
+
+.DivFormationCourse {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  background: #090909;
+  border: 1px solid #000000;
+  width: 200px;
+  height: 190px;
+}
+.DivFormationCourse p {
+  margin-left: 1.3rem;
+}
+
+.DivFormationCourse h2::before {
+  content: "";
+  display: block;
+  width: 4px;
+  height: 20px;
+  background: linear-gradient(rgba(182, 41, 248, 1), rgba(10, 94, 221, 1));
+  position: absolute;
+  top: 20px;
+  left: -24px;
+}
+
+.DivFormationCourse h2 {
+  color: #ffffff;
+  font-size: 18px;
+  margin-left: 1.3rem;
+  position: relative;
+}
+
+footer {
+  background-color: #000000;
+  width: 100%;
+  height: 512px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ContentFooter {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .div1Footer p {
+  color: #cccccc;
+  width: 40%;
+}
+
+.div2Footer ul li {
+  list-style-type: none;
+  font-weight: bold;
+  font-size: 26px;
+  font-family: "Fira Sans";
+  margin-bottom: 5%;
+}
+.div2Footer ul a {
+  display: flex;
+  color: #ffffff;
+}
+.div2Footer img {
+  width: 30px;
+  height: 30px;
+  margin-right: 5%;
+}
+
+.deco {
+  position: absolute;
+}
